@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body {
+  background: #000000;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.custom-navbar {
+  border: none;
+  margin-bottom: 0;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.custom-navbar .navbar-brand span {
+  color: #ff8000;
+}
+
+.custom-navbar .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.navbar-collapse .navbar-nav-first li {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-right: 22px;
+  padding-left: 22px;
+  text-transform: uppercase;
+  margin-left: 8em;
+}
+
+.navbar-nav-first {
+  position: relative;
+  display: block;
+}
+.custom-navbar .navbar-toggle {
+  background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+  background: #252525;
+  border-color: transparent;
+}
+
+.text-nav-link {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.wrapper-navbar-header {
+  background-color: #001529;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  /* padding-right: 22px; */
+  padding-left: 22px;
+}
+
+.main-nav-link-btnLogin-btnSignin {
+  float: right;
+}
+
+.btn-login {
+  background-color: #ffffff;
+  color: #ce3232;
+  border: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+.btn-login:hover {
+  background-color: #ff8000;
+  color: white;
+}
+
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.footer {
+  background-color: #001529;
+  font-weight: 1000;
+}
+.mt-4,
+.my-4 {
+  height: auto;
+  padding-top: 250px;
+  padding-bottom: 80px;
+
+  margin-top: 0rem !important;
+}
+
+.pt-3,
+.py-3 {
+  padding-top: 1rem !important;
+}

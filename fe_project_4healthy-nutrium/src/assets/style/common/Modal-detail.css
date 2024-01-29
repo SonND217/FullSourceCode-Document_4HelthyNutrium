@@ -1,0 +1,30 @@
+.detail-nameFood {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.detail-nameFood h4 {
+  margin-left: 20px;
+}
+
+.wrapper-detail {
+  width: auto;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-bottom: 15px;
+}
+
+.content-card-detailFood {
+  font-size: 20px;
+  font-weight: 1000;
+  color: #ff8000;
+  margin: auto;
+  text-align: center;
+}
+
+.card-title-name {
+  font-size: 200px;
+}

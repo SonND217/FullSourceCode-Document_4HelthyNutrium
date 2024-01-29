@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  height: auto;
+}
+.wrapper-quiz_page {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper-ProgressBar {
+  padding: 1.25rem;
+  max-width: 58rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper-title-quiz {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 32px;
+  width: 100%;
+}
+
+.wrapper-table-option {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  max-width: 38rem;
+  width: 100%;
+  margin: auto;
+}
+
+.wrapper-table-option .button_Link {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.button-opinion-quiz {
+  transition-duration: 0.15s;
+  text-align: center;
+  padding-bottom: 1.75rem;
+  padding-top: 1.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  --tw-bg-opacity: 1;
+  color: #404040;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 1000;
+  border-radius: 0.5rem;
+}
+
+.button-opinion-quiz:hover {
+  color: white;
+  background-color: rgba(5, 170, 88, var(--tw-bg-opacity));
+}
+
+.InputText_Quiz {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.InputText_Quiz:hover {
+  background-color: aliceblue;
+}
+
+.ant-radio-input {
+  font-size: 20px;
+}
+
+.btn-radio-quiz {
+  transition-duration: 0.15s;
+  text-align: center;
+  padding-bottom: 1.75rem;
+  padding-top: 1.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.button-opinion-quiz-icon {
+  background-image: url("../../icon/steak.png");
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  margin-left: 12px;
+  background-color: white;
+}
+
+.cover-btn-quiz-icon-text {
+  display: block;
+  /* background-color: blanchedalmond; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.cover-btn-quiz-icon-text:hover {
+  background-color: #001529;
+  color: white;
+}
+
+.button-opinion-quiz-text {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 900;
+  height: auto;
+  width: 100%;
+}
+
+.button-opinion-quiz-icon-foodGreen {
+  background-image: url("../../icon/vegetables.png");
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  margin-left: 12px;
+  background-color: white;
+}
+
+.dropdown-heading-value {
+  display: flex;
+}
+
+.center-text {
+  font-size: 20px;
+  text-align: center;
+}
+.dropdown-heading-value .icon-water {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  /* background-color: aqua; */
+  margin: auto;
+}
+
+.center-icon {
+  width: 80px;
+  height: 80px;
+  background-image: url("https://img.icons8.com/external-stickers-smashing-stocks/70/null/external-Water-Bottle-football-stickers-smashing-stocks.png");
+  background-repeat: no-repeat;
+  justify-items: center;
+  margin: auto;
+}
+
+.padding_20 {
+  padding: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.padding_20:hover {
+  background-color: aliceblue;
+}
+.dropdown-multiSelectionChoose {
+  width: 570px;
+}
+
+.checked {
+  font-weight: 600;
+}
+
+input[type="checkbox"] {
+  box-sizing: border-box;
+}
+
+.CardName-food {
+  font-weight: 600;
+}
+
+.CardTitle-Info_Calo {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.CardTitle-Info_Number {
+  margin-left: 5px;
+  font-weight: 1000;
+  color: #ff8000;
+}
+
+.wrapper-food-quantitative {
+  display: grid;
+  width: auto;
+}
+
+.CardName-food {
+  float: left;
+  /* width: 60%; */
+  font-size: 17px;
+}
+.CardName-quantitative {
+  font-size: 15px;
+  float: right;
+  /* width: 40%; */
+}
+.Button-infomation-getuserdiet {
+  margin-top: 10px;
+  height: 50%;
+  width: 100%;
+}
+
+.CardName-caloFood {
+  font-size: 15px;
+  width: 100%;
+}
+
+.Messageloading-getUserDiet {
+  justify-items: center;
+  display: flex;
+}
+
+.btn-addmore_typeFood {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 50px;
+  font-weight: 900;
+  background-color: rgb(255, 145, 0);
+  border: #ff8000 1px solid;
+}
+
+.btn-addmore_typeFood:hover {
+  background-color: #56cc9d;
+  border: #56cc9d 2px solid;
+}
+
+.title-name {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.image_center {
+  margin: auto;
+  width: 38%;
+  padding-bottom: 30px;
+}

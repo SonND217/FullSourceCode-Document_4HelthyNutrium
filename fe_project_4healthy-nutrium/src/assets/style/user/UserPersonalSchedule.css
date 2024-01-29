@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  height: auto;
+  background-color: #f3f4f6;
+}
+.wrapper-schedule_page {
+  width: 80%;
+  height: auto;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.title-card-wrapper {
+  display: flex;
+  font-weight: 900;
+}
+
+.title-card-time-schedule {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.title-card-amount-calo {
+  color: white;
+  padding: 5px;
+  background-color: #10b981;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.wrapper-about {
+  display: block;
+  padding: 10px 0px 10px 0px;
+}
+
+.about-title {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 35px;
+  margin-top: -5px;
+  font-size: 15px;
+}
+
+.about-detail {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wrapper-userProfile {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  min-height: 100vh;
+}

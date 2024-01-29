@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  height: auto;
+}
+
+.wrapper-DetailPage {
+  margin: auto;
+  width: 80%;
+  min-height: 100vh;
+  height: auto;
+  background-color: white;
+}
+
+.wrapper-Img_sumary {
+  padding: 30px;
+  /* background-image: url("https://celes.club/uploads/posts/2022-05/1653252853_23-celes-club-p-sushi-rolli-fon-krasivie-24.jpg"); */
+  background-color: #ffedd5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name_SumaryNutrition {
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+.data_SmaryNutrition {
+  color: #ff8000;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.wrapper-nutrionFacts {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  /* background-color: #4dff00; */
+}
+
+.wrapper_RelateFood {
+  width: 100%;
+  height: auto;
+  min-height: 80vh;
+}
+
+.name_RelateFood {
+  font-weight: 1000;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #ff8000;
+}
+.box_RelateFood {
+  width: 80%;
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  margin-bottom: 10px;
+}
+
+.box_RelateFood:hover {
+  background-color: #f9f9f9;
+}
+
+.nameFood_box_RelateFood {
+  padding-left: 10px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.image_Ingredient_Detail {
+  padding: "10px 0px 10px 0px";
+}
+.image_Food_Detail {
+  padding: "10px 0px 10px 0px";
+}

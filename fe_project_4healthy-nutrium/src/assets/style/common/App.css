@@ -1,0 +1,403 @@
+/* Login and Register Form style */
+
+.form-control {
+  margin: 7px 0px 15px 0px;
+}
+
+.form-select {
+  height: 56px;
+  margin: 7px 0px 15px 0px;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+}
+
+.landing {
+  position: static;
+  background: url("../../image/landing.jpg") no-repeat center center/cover;
+  height: 100vh;
+  background-size: cover;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.landing-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.landing-inner-second {
+  background-color: white;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  overflow-y: scroll;
+  text-align: center;
+  float: right;
+}
+
+.landing-inner-second form {
+  width: 80%;
+  height: auto;
+}
+
+.landing-inner-second form h1,
+.landing-inner-second form h4,
+.landing-inner-second form p {
+  color: red;
+}
+
+.landing-inner-second form input {
+  display: inline-flex;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  width: 100%;
+  /* height: 56px; */
+  padding: 15px 11px;
+  font-family: "Takeaway Sans", sans-serif;
+  /* font-size: 14px; */
+  line-height: 24px;
+  color: #0a3847;
+}
+
+.landing-inner-second form input:hover {
+  border-color: #0a3847;
+}
+
+.landing-inner-second .m1-2 {
+  margin-left: 5px;
+}
+
+.landing-inner-second form .btn_register {
+  background-color: #3b89f7;
+  border-color: #3b89f7;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 160px;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  float: left;
+}
+
+.btn_send_mail_register_account {
+  background-color: #322a2a;
+  border-color: #322a2a;
+  color: #fff;
+  height: 56px;
+  width: 200px;
+  margin-top: 7px;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+.btn_send_mail_register_account:hover {
+  background-color: #ffffff;
+  border-color: #000000;
+  color: rgb(0, 0, 0);
+}
+
+.landing-description {
+  margin-top: 75px;
+  font-size: 50px;
+}
+
+.form_send_mail {
+  height: 56px;
+  padding: 20px;
+}
+.form_login_register {
+  height: 56px;
+  padding: 20px;
+}
+
+.btn_loginForm_1 {
+  background-color: #3b89f7;
+  border-color: #3b89f7;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 160px;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  float: right;
+}
+
+.btn_Next_SendMailForm_1 {
+  background-color: #f73b6d;
+  border-color: #f73b6d;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 160px;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  float: left;
+}
+
+.btn_Next_SendMailForm_1:hover {
+  background-color: white;
+  color: #f73b6d;
+  border-color: #f73b6d;
+}
+
+.btn_Next_SendMailForm_2 {
+  background-color: #3b89f7;
+  border-color: #3b89f7;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 160px;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  line-height: 24px;
+}
+
+.btn_Next_SendMailForm_2:hover {
+  background-color: white;
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.btn_Return_ResetPasswordForm {
+  background-color: #10b981;
+  border-color: #10b981;
+  color: #fff;
+  display: inline-flex;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 160px;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  float: left;
+}
+.btn_SendEmail {
+  background-color: #3b89f7;
+  border-color: #3b89f7;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 160px;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  float: right;
+}
+
+.title-food_libary {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-input-affix-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+  display: inline-flex;
+}
+
+.formLabel_loginForm_RegisterForm {
+  float: left;
+  font-size: 15px;
+  font-weight: 900;
+  color: #0a3847;
+}
+
+.landing-inner-second_register {
+  background-color: white;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  overflow-y: scroll;
+  text-align: center;
+  float: right;
+}
+
+.landing-inner-second_register form {
+  width: 80%;
+  height: auto;
+}
+
+.landing-inner-second_register form h1,
+.landing-inner-second_register form h4,
+.landing-inner-second_register form p {
+  color: red;
+}
+
+.landing-inner-second_register form input {
+  display: inline-flex;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  width: 100%;
+  /* height: 56px; */
+  padding: 15px 11px;
+  font-family: "Takeaway Sans", sans-serif;
+  /* font-size: 14px; */
+  line-height: 24px;
+  color: #0a3847;
+}
+
+.landing-inner-second_register form input:hover {
+  border-color: #0a3847;
+}
+
+.landing-inner-second_register .m1-2 {
+  margin-left: 5px;
+}
+
+.landing-inner-second_register form .btn_register {
+  background-color: #3b89f7;
+  border-color: #3b89f7;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 100%;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.landing-inner-second_register .my-4_register {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  margin-top: 0rem !important;
+}
+
+.btn_sendEmail {
+  background-color: #10b981;
+  border-color: #10b981;
+  height: 56px;
+  width: 129px;
+  margin-top: 32px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn_sendEmail_resetPassword {
+  background-color: #10b981;
+  border-color: #10b981;
+  height: 56px;
+  width: 129px;
+  margin-top: 31px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn_sendEmail {
+  background-color: #059669;
+  border-color: #059669;
+}
+
+.landing-inner-second_register form .btn_register:hover {
+  background-color: #10b981;
+  border-color: #10b981;
+  color: #fff;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #10b981;
+}

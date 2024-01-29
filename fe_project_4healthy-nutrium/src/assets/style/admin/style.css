@@ -1,0 +1,159 @@
+.site-page-header {
+  background-color: none;
+  padding-top: 25px;
+  border-bottom: 1px solid #1890ff;
+}
+
+.site-card-wrapper_Schedule {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+  min-height: auto;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.border-1 {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.margin-20 {
+  margin-top: 20px;
+}
+
+.add_new_user__listUser {
+  padding: 20px;
+  float: right;
+}
+
+.search_user___listUser {
+  float: left;
+  width: 650px;
+  padding: 20px 20px 20px 10px;
+}
+
+.filterSeasson_user___listUser {
+  padding: 0px 20px 20px 0px;
+}
+.wrapper__listUser {
+  width: 100%;
+}
+
+.btn_upload_image__UploadmangeFile {
+  width: 200px;
+}
+
+.information_user__UserProfile {
+  letter-spacing: 1px;
+  width: 100%;
+  /* text-align: left; */
+  /* justify-content: center; */
+  /* margin-top: 35px; */
+  font-family: "Roboto Condensed", sans-serif;
+  /* padding-right: 20%; */
+  float: left;
+}
+.information_user__UserProfile .informatione_user_cover__UserProfile {
+  font-size: 15px;
+  text-align: left;
+}
+.plus_add_button svg {
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-right: 20px;
+}
+
+.display_block {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.errorMSG {
+  color: red;
+}
+
+.name_account_listPage {
+  position: absolute;
+  right: 5px;
+  padding-top: 5px;
+  min-width: 250px;
+  height: auto;
+}
+
+.type_account_listPage {
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  min-width: 250px;
+  width: auto;
+  height: auto;
+  font-weight: 900;
+}
+.name_account_admin {
+  position: absolute;
+  right: 5px;
+  padding-top: 5px;
+  min-width: 185px;
+  height: auto;
+}
+
+.type_account_admin {
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  min-width: 185px;
+  width: auto;
+  height: auto;
+  font-weight: 900;
+}
+
+.radio_registerGender {
+  width: 185px;
+  font-weight: 800;
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+
+.btn_SendEmail_Register {
+  background-color: #f73b6d;
+  border-color: #f73b6d;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 4px 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+  width: 160px;
+  font-family: "Takeaway Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  float: right;
+}
+.btn_SendEmail_Register:hover {
+  background-color: #ff1a57;
+  border-color: #f73b6d;
+}
+
+.admin_search_button {
+  padding-left: 10px;
+}
+
+.admin_search_button button:hover {
+  background-color: #1890ff;
+}
+
+.admin_search_button button {
+  background-color: #1890ff;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.admin_search_button {
+  border: 2px;
+}

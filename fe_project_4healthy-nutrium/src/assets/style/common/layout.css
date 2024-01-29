@@ -1,0 +1,48 @@
+.ant-layout-header {
+  height: 61px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+  background: #001529;
+  margin-left: 15px;
+}
+.ant-layout {
+  height: auto;
+  width: auto;
+  height: 100vh;
+}
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #10b981;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.trigger {
+  padding-left: 20px;
+}
+.ant-layout-sider-children {
+  min-height: 100%;
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+  background-color: white;
+}
+
+.content {
+  height: auto;
+}
